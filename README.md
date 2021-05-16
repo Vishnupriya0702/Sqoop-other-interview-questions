@@ -55,4 +55,9 @@ Sqoop Supported Hive commands :
 --map-column-hive, --hive-home, --hive-partition-key, --hive-partition-value
 sqoop import --connect jdbc:mysql://ms.itversity.com/retail_db --username retail_user --password itversity --as-sequencefile --incremental lastmodified --check-column colname
 --last-value lastmodifiedtimestamp
+
+
+Next to learn: Sqoop-merge
+sqoop-codegen
+hcatalog
  
