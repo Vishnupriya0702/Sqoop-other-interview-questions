@@ -1,0 +1,1 @@
+# Sqoop-other-interview-questions
