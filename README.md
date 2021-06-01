@@ -25,6 +25,9 @@ Sqoop Import all tables :
 Connection of Sqoop in ITVERSITY :
 Connect to MYSQL using mysql -u username -p 
 Enter password : Password name
+ mysql -u retail_user -h g02.itversity.com -p
+Enter password:
+
 
 List of commands :
 sqoop eval --connect jdbc:mysql://ms.itversity.com/retail_db  --username retail_user  --password itversity   --query "SELECT count(1) from orders"
