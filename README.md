@@ -63,4 +63,10 @@ sqoop import --connect jdbc:mysql://ms.itversity.com/retail_db --username retail
 Next to learn: Sqoop-merge
 sqoop-codegen
 hcatalog
- 
+
+Sqoop command to import Hive table "
+--hive-import 
+--hive-table
+--create-hive-table
+--delete-target-dir
+
